@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:github_users/app/data/pages/home/home_page.dart';
-import 'package:github_users/app/data/pages/user_details/user_details_page.dart';
+import 'package:github_users/app/pages/home/home_page.dart';
+import 'package:github_users/app/pages/user_details/user_details_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

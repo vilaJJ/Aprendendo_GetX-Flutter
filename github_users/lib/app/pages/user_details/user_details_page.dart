@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:github_users/app/data/models/github_user_model.dart';
-import 'package:github_users/app/data/pages/user_details/user_details_binding.dart';
-import 'package:github_users/app/data/pages/user_details/user_details_controller.dart';
+import 'package:github_users/app/pages/user_details/user_details_binding.dart';
+import 'package:github_users/app/pages/user_details/user_details_controller.dart';
 
 class UserDetailsPage extends StatefulWidget {
   const UserDetailsPage({super.key});
@@ -61,7 +61,7 @@ class _UserDetailsPageState extends State<UserDetailsPage> {
             borderRadius: BorderRadius.circular(16),
             child: Image.network(
               githubUser.avatarUrl,
-              height: 275,
+              height: MediaQuery.of(context).size.height * 0.5,
               width: double.infinity,
               fit: BoxFit.cover,
             ),
