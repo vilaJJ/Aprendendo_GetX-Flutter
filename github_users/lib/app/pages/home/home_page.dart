@@ -56,6 +56,7 @@ class _HomePageState extends State<HomePage> {
                 vertical: MediaQuery.of(context).size.height * 0.01
               ),
               child: ListTile(
+                
                 contentPadding: EdgeInsets.zero,
                 leading: CircleAvatar(
                   radius: 50,
